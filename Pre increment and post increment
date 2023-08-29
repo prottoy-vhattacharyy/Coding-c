@@ -4,12 +4,13 @@ int main()
 {
 	//pre increment 
     int a=1;
-    int b=++a;
+    int b=++a; /*1st add 1 to a.now a is 2. 
+then assain new value of a into b*/
     printf("a=%i   b=%i",a,b);
     
     //post increment
     int c=1;
-    int d=c++;
+    int d=c++; 
     printf("\nc=%i   d=%i",c,d);
     return 0;
 }
